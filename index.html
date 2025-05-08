@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKTINAMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SKTINAMS</h1>
+        <nav>
+            <a href="#">হোম</a>
+            <a href="#categories">ক্যাটেগরি</a>
+            <a href="#cart">কার্ট</a>
+            <a href="#account">একাউন্ট</a>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <h2>জনপ্রিয় পণ্য</h2>
+        <!-- Slider items -->
+    </section>
+
+    <section id="categories">
+        <h2>ক্যাটেগরি অনুযায়ী পণ্য</h2>
+        <!-- Categories -->
+    </section>
+
+    <section id="offers">
+        <h2>ডিসকাউন্ট ও অফার</h2>
+        <!-- Offer banners -->
+    </section>
+
+    <section id="products">
+        <input type="text" id="searchInput" placeholder="পণ্য খুঁজুন...">
+        <select id="filterSelect">
+            <option value="all">সব</option>
+            <option value="low">কম দাম</option>
+            <option value="high">বেশি দাম</option>
+        </select>
+
+        <div class="product" data-price="1500">
+            <img src="shirt.jpg" alt="Shirt">
+            <h3>পোশাক</h3>
+            <p>দাম: 1500 টাকা</p>
+            <p class="sold-out">স্টকে নেই</p>
+            <button disabled>Add to Cart</button>
+        </div>
+        <div class="product" data-price="1000">
+            <img src="mobile.jpg" alt="Mobile">
+            <h3>মোবাইল</h3>
+            <p>দাম: 1000 টাকা</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <section id="cart">
+        <h2>আপনার কার্ট</h2>
+        <!-- Cart items -->
+    </section>
+
+    <section id="account">
+        <h2>গ্রাহক একাউন্ট</h2>
+        <!-- Account system -->
+    </section>
+
+    <section id="admin">
+        <h2>অ্যাডমিন প্যানেল</h2>
+        <!-- Admin features -->
+    </section>
+
+    <section id="policies">
+        <h2>নীতিমালা</h2>
+        <p><strong>প্রাইভেসি পলিসি:</strong> আপনার তথ্য গোপন রাখা হবে।</p>
+        <p><strong>রিটার্ন পলিসি:</strong> ৭ দিনের মধ্যে পণ্য ফেরত নেওয়া হবে।</p>
+        <p><strong>টার্মস:</strong> সকল শর্তাবলী মেনে চলতে হবে।</p>
+    </section>
+
+    <footer>
+        <p>যোগাযোগ: হোয়াটসঅ্যাপ - 01401036990</p>
+        <p>পেমেন্ট: বিকাশ, নগদ</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
